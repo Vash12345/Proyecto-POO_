@@ -1,10 +1,21 @@
-# Proyecto-POO_
-Repositorio para la clase de POO del 3 semestre de IMEC 
-Antonio Emmanuel Orozco Vera
-Ailyn Betsabe Cuevas 
-Fernando Valenzuela García 
-Gael Ulises Esquivel García 
-Miguel Angel Hernandes López 
+# Proyecto Programación Orientada a Objetos - Clase Criatura
+
+## Descripción
+Primer entregable de la materia de POO. Implementación de la clase `Criatura` en C++.
+
+## Estructura de la Clase Criatura
+- **Atributos Privados:**
+  - `nombre` (string)
+  - `vida` (int)
+  - `energia` (int)
+- **Métodos Públicos:**
+  - `Criatura(...)`: Constructor con parámetros.
+  - `~Criatura()`: Destructor.
+  - `getNombre()`, `getVida()`, `getEnergia()`: Métodos Getters (Obtener).
+  - `setNombre()`, `setVida()`, `setEnergia()`: Métodos Setters (Modificar).
+  - `descansa()`, `atacar()`, `recibirDano()`: Acciones públicas de la clase.
+
+## Diagrama de Clase (UML)
 
 
 | 07 sep 2026 |
