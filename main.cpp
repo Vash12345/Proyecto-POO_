@@ -181,7 +181,7 @@ int main() {
                         cout << "¡Has derrotado a " << monstruo->getNombre() << "!\n";
                     }
                 } else {
-                    cout << "El enemigo ya esta derrotado. No hay a quien atacar.\n";
+                    cout << "El enemigo ha sido derrotado. No hay a quien atacar.\n";
                 }
                 break;
                 
@@ -200,7 +200,7 @@ int main() {
                 return 0;
 
             default:
-                cout << "Opcion no valida. Intenta de nuevo.\n";
+                cout << "Opcion invalida. Intenta de nuevo.\n";
                 break;
         }
 
