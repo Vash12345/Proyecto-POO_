@@ -128,7 +128,7 @@ public:
             objetivo->recibirDanio(ataque);
             setEnergia(energia - 10);
         } else {
-            cout << "\n>> " << nombre << " no tiene suficiente energia para atacar. ¡Necesita descansar!\n";
+            cout << "\n>> " << nombre << " La energia es muy baja. ¡Necesita descansar!\n";
         }
 
     }
@@ -146,12 +146,12 @@ int main() {
     int espera, opc;
     string nombreMascota;
 
-    cout << "=== SIMULADOR DE CRIATURAS ===\n";
+    cout << "=== EL SIMULADOR DE CRIATURAS ===\n";
     
     // INSTANCIACIÓN DINÁMICA: Uso de 'new' para asignar memoria en tiempo de ejecución
     Criatura* tamagochi = new Criatura();
     
-    cout << "Que nombre le quieres poner a tu mascota?: ";
+    cout << "Que nombre le quieres poner a la mascotiña?: ";
     cin >> nombreMascota;
     tamagochi->setNombre(nombreMascota);
 
@@ -176,13 +176,13 @@ int main() {
                     
                     // Lógica de contraataque si el enemigo sobrevive al golpe
                     if (monstruo->estaViva()) {
-                        cout << "¡El enemigo contraataca!\n";
+                        cout << "¡El enemigo a contraatacado!\n";
                         monstruo->atacarA(tamagochi);
                     } else {
                         cout << "¡Has derrotado a " << monstruo->getNombre() << "!\n";
                     }
                 } else {
-                    cout << "El enemigo ha sido derrotado. No hay a quien atacar.\n";
+                    cout << "El enemigo fue derrotado. No hay a quien atacar.\n";
                 }
                 break;
                 
@@ -201,7 +201,7 @@ int main() {
                 return 0;
 
             default:
-                cout << "Opcion invalida. Intenta de nuevo.\n";
+                cout << "Opcion no valida. Intenta de nuevo.\n";
                 break;
         }
 
