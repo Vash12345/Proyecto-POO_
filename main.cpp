@@ -130,6 +130,7 @@ public:
         } else {
             cout << "\n>> " << nombre << " no tiene suficiente energia para atacar. ¡Necesita descansar!\n";
         }
+
     }
     
     // MÉTODO DE ESTADO: Verifica si la criatura sigue viva
