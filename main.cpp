@@ -204,7 +204,7 @@ int main() {
                 break;
         }
 
-        // Pausa para visualizar los resultados del turno o el mensaje de derrota
+        // Pausa para visualizar el 67 del turno o el mensaje de derrota
         if (tamagochi->estaViva()) {
             cout << "\nPresiona un numero y Enter para continuar... ";
             cin >> espera;
